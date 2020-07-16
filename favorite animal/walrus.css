@@ -1,5 +1,7 @@
-body{
-    box-sizing: border-box;
+.box{
+    postion: relative;
+    text-align: center;
+    color: white;
 }
 .title{
     font-size: 40px;
@@ -9,14 +11,42 @@ body{
 p{
     background-color: black;
     color: white;
-    height: 400px;
+    height: 250px;
     width: 300px;
-    float: left;
+    position: absolute;
+    text-align: center;
+    bottom: 350px;
+    left: 30px;
+
 }
 
 img{
     position: relative;
     border: 3px solid brown;
-    float: right;
+
 }
 
+.baby{
+    opacity: 0.3;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.mom{
+    position: absolute;
+    top: 400px;
+    right: 30px;
+    opacity: 1;
+}
+
+h2{
+    background-color: black;
+    color: white;
+    width: 300px;
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+    bottom: 600px;
+    
+}
