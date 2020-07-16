@@ -2,6 +2,8 @@
     postion: relative;
     text-align: center;
     color: white;
+    height: 900px;
+    width: 900px;
 }
 .title{
     font-size: 40px;
@@ -36,8 +38,7 @@ img{
 .mom{
     position: absolute;
     top: 400px;
-    right: 30px;
-    opacity: 1;
+    left: 450px;
 }
 
 h2{
